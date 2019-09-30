@@ -12,6 +12,8 @@
 		3D84A78E2342923A0009D3A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D84A78C2342923A0009D3A8 /* Main.storyboard */; };
 		3D84A7902342923B0009D3A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D84A78F2342923B0009D3A8 /* Assets.xcassets */; };
 		3D84A7932342923B0009D3A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D84A7912342923B0009D3A8 /* LaunchScreen.storyboard */; };
+		3D84A79D234294490009D3A8 /* AlbumsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D84A79C234294490009D3A8 /* AlbumsTableViewController.swift */; };
+		3D84A79F234295AA0009D3A8 /* AlbumDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D84A79E234295AA0009D3A8 /* AlbumDetailTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3D84A78F2342923B0009D3A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D84A7922342923B0009D3A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D84A7942342923B0009D3A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D84A79C234294490009D3A8 /* AlbumsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewController.swift; sourceTree = "<group>"; };
+		3D84A79E234295AA0009D3A8 /* AlbumDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,10 @@
 		3D84A7852342923A0009D3A8 /* Albums */ = {
 			isa = PBXGroup;
 			children = (
-				3D84A7942342923B0009D3A8 /* Info.plist */,
 				3D84A79A2342929D0009D3A8 /* Storyboards */,
 				3D84A79B234292A90009D3A8 /* Resources */,
+				3D84A79C234294490009D3A8 /* AlbumsTableViewController.swift */,
+				3D84A79E234295AA0009D3A8 /* AlbumDetailTableViewController.swift */,
 			);
 			path = Albums;
 			sourceTree = "<group>";
@@ -74,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				3D84A78F2342923B0009D3A8 /* Assets.xcassets */,
+				3D84A7942342923B0009D3A8 /* Info.plist */,
 				3D84A7862342923A0009D3A8 /* AppDelegate.swift */,
 				3D84A7882342923A0009D3A8 /* SceneDelegate.swift */,
 			);
@@ -152,6 +158,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D84A7872342923A0009D3A8 /* AppDelegate.swift in Sources */,
+				3D84A79D234294490009D3A8 /* AlbumsTableViewController.swift in Sources */,
+				3D84A79F234295AA0009D3A8 /* AlbumDetailTableViewController.swift in Sources */,
 				3D84A7892342923A0009D3A8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,7 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3F959XXFV;
-				INFOPLIST_FILE = Albums/Info.plist;
+				INFOPLIST_FILE = "/Users/mitchellgbudge/Desktop/TL Sprint 9/Albums/Albums/Albums/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,7 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3F959XXFV;
-				INFOPLIST_FILE = Albums/Info.plist;
+				INFOPLIST_FILE = "/Users/mitchellgbudge/Desktop/TL Sprint 9/Albums/Albums/Albums/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
